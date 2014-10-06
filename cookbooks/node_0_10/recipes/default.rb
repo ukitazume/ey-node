@@ -1,3 +1,12 @@
+enable_package "net-libs/nodejs" do
+  version "0.10.28"
+end
+
+package "net-libs/nodejs" do
+  version "0.10.28"
+  action :install
+end
+
 execute "install pm2" do
   command "/opt/nodejs/0.10.28/bin/npm install pm2 -g --unsafe-perm"
 end

@@ -1,0 +1,11 @@
+/home/deploy/.pm2/logs/*.log {
+  daily
+  rotate 30
+  missingok
+  notifempty
+  compress
+  sharedscripts
+  copytruncate
+  dateext
+  dateformat %Y-%m-%d
+}
