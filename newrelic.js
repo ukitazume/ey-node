@@ -9,7 +9,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: EYConfig.get('base', 'app_environment_name')
+  app_name: EYConfig.get('base', 'app_environment_name'),
   /**
    * Your New Relic license key.
    */
