@@ -18,6 +18,7 @@
     "jshint-stylish": "~1.0.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "~0.5.0",
+    "newrelic": "~1.21.1",
     "ey_config": "1.0.0"
   }
 }
