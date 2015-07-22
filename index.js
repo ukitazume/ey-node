@@ -1,4 +1,11 @@
-require('newrelic');
+switch(process.env.RAILS_ENV){
+  case 'production':
+    require('newrelic');
+  case 'staging':
+    require('newrelic');
+  default:
+    null;
+}
 var express = require('express');
 var app = express();
 app.get('/', function(req, res){
