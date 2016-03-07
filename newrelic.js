@@ -5,6 +5,9 @@
  * description of configuration variables and their potential values.
  */
 var EYConfig = require('ey_config');
+EYConfiga.Config('./config/newrelic_development.json');
+// if (process.env.RAILS_ENV == 'development') {
+// }
 exports.config = {
   /**
    * Array of application names.
