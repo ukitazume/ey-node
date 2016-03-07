@@ -9,7 +9,9 @@
   },
   "author": "Yu Kitazume",
   "dependencies": {
-    "express": "4.x"
+    "express": "4.x",
+    "websocket": "^1.0.22",
+    "websocket.io": "^0.2.1"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
