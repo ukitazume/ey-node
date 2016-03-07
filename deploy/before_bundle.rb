@@ -1,3 +1,2 @@
 max_file_open = 16384
-sudo "export GODPID=`pgrep -f god`"
-sudo "prlimit --pid $GODPID --nofile=#{max_file_open}:#{max_file_open}"
+sudo "GODPID=`pgrep -f god` && prlimit --pid $GODPID --nofile=#{max_file_open}:#{max_file_open}"
